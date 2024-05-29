@@ -38,3 +38,16 @@ CMD ["5"]
 docker run ubuntu-sleeper -> sleep 5
 docker run ubuntu-sleeper 10 -> sleep 10
 docker run --entrypoint sleep2.0 ubuntu-sleeper 10 -> sleep2.0 10
+
+## Security
+
+ps aux - processes
+
+docker run --user=1000 ubuntu sleep 3600 - run as user
+
+or in Dockerfile `USER 1000`
+
+System privileges can be added/removed with `docker run --cap-add MAC_ADMIN ubuntu` and `docker run --cap-drop KILL ubuntu.
+
+Container can be run with all privileges with `docker run --privileged ubuntu`.
+
