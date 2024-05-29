@@ -8,3 +8,5 @@
 ### [replica-sets](./replica-sets/README.md)
 ### [services](./pods/README.md)
 ### [docker](./docker/README.md)
+### [config-maps](./config-maps/README.md)
+### [secrets](./secrets/README.md)
