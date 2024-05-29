@@ -12,6 +12,8 @@ docker build webapp-color -t webapp-color:tag
 
 docker run -p 8282:8080 webapp-color  (host port:container port)
 
+docker run -e APP_COLOR=pink simpleapp
+
 docker run -it python:3.6 sh
 
 cat /etc/resolv.conf - system version
