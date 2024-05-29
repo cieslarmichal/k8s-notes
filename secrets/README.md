@@ -1,5 +1,7 @@
 # Secrets
 
+Secrets are not encrypted, only decoded.
+
 Secret values must be base64 encoded
 
 ## Commands
