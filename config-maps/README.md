@@ -2,6 +2,10 @@
 
 ## Commands
 
-kubectl craete configmap app-config --from-literal=APP_COLOR=blue --from-literal=APP_MODE=prod
+kubectl create configmap app-config --from-literal=APP_COLOR=blue --from-literal=APP_MODE=prod
 
-kubectl craete configmap app-config --from-file=<path>
+kubectl create configmap app-config --from-file=<path>
+
+kubectl get configmaps
+
+kubect describe configmaps
