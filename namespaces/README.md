@@ -4,7 +4,7 @@ Groups resources into logical units.
 
 ## Commands
 
-kubectl get pods -n <name>
+kubectl get pods -n namespace-name
 
 kubectl get pods --all-namespaces
 
