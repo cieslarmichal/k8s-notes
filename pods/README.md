@@ -19,3 +19,5 @@ kubectl get pod webapp -o yaml > my-new-pod.yaml - extracts pod definition
 kubectl edit deployment my-deployment
 
 kubectl exec ubuntu-sleeper -- whoami
+
+kubectl exec -n elastic-stack -it app -- sh/bash
