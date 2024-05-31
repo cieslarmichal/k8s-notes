@@ -5,4 +5,5 @@ Toleration are applicable on pods and gives them access to be deployed on nodes.
 
 ## Commands
 
-kubectl taint nodes node1 app=blue:(NoSchedule/PreferNoSchedule/NoExecute)
+kubectl taint nodes node1 app=blue:(NoSchedule/PreferNoSchedule/NoExecute) - taint
+kubectl taint nodes node1 blue:NoExecute- - untaint with hyphen in the end
