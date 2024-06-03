@@ -21,3 +21,7 @@ kubectl edit deployment my-deployment
 kubectl exec ubuntu-sleeper -- whoami
 
 kubectl exec -n elastic-stack -it app -- sh/bash
+
+kubectl logs -f event-pod
+
+kubectl logs -f event-pod container-name - multicontainer
