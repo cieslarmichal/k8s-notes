@@ -14,6 +14,14 @@ kubectl describe pod pod-name
 
 kubectl create deployment httpd-frontend --image=httpd:2.4-alpine --replicas=3
 
-kubectl rollout status deployment/my-deployment
+kubectl rollout status deployment my-deployment
 
-kubectl rollout history deployment/my-deployment
+kubectl rollout history deployment my-deployment
+
+kubectl rollout undo deployment my-deployment
+
+kubectl rollout history deployment nginx --revision=1
+
+kubectl rollout history deployment nginx --revision=3
+
+kubectl rollout undo deployment nginx --to-revision=1
