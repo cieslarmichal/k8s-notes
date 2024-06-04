@@ -25,3 +25,5 @@ kubectl exec -n elastic-stack -it app -- sh/bash
 kubectl logs -f event-pod
 
 kubectl logs -f event-pod container-name - multicontainer
+
+kubectl get pods --selector app=App1
