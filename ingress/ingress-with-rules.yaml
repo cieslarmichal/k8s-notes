@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-books-authors
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /books
+        backend:
+          serviceName: books-service
+          servicePort: 80
+      - path: /authors
+        backend:
+          serviceName: authors-service
+          servicePort: 80
