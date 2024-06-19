@@ -14,6 +14,8 @@
 
 ### [namespaces](./namespaces/README.md)
 
+### [network-policies](./network-policies/README.md)
+
 ### [pods](./pods/README.md)
 
 ### [replica-sets](./replica-sets/README.md)
