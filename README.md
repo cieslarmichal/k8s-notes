@@ -29,3 +29,5 @@
 ### [services](./services/README.md)
 
 ### [taints-and-tolerations](./taints-and-tolerations/README.md)
+
+### [volumes](./volumes/README.md)
