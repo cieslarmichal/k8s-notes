@@ -8,6 +8,8 @@
 
 ### [docker](./docker/README.md)
 
+### [ingress](./ingress/README.md)
+
 ### [limit-ranges](./limit-ranges/README.md)
 
 ### [namespaces](./namespaces/README.md)
