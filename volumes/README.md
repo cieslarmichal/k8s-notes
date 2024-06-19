@@ -9,3 +9,5 @@ PVC is only bind to one PV, could be bound by labels (1 to 1 relation).
 ## Commands
 
 kubectl get persistentvolume
+
+kubectl get persistentvolumeclaim
