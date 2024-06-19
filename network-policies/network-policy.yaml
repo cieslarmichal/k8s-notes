@@ -13,9 +13,11 @@ spec:
     - podSelector:
         matchLabels:
           name: api-pod
-      namespaceSelector:
+      namespaceSelector: # with "-" to be seperate rule (or instead of and)
         matchLabels:
           name: prod
+    - ipBlock:
+        cidr: 192.168.5.10/32
     ports:
     - protocol: TCP
       port: 3306
