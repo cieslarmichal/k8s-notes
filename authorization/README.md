@@ -14,4 +14,4 @@ kubectl auth can-i create-deployments
 
 kubectl auth can-i delete-nodes
 
-kubectl auth can-i create-deployments --as dev-user
+kubectl auth can-i create-deployments --as dev-user --namespace test
