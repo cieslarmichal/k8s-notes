@@ -2,6 +2,8 @@
 
 ## Commands
 
+kubectl config get-users
+
 kubectl get roles
 
 kubectl get rolebindings
