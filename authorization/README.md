@@ -2,7 +2,7 @@
 
 ## Commands
 
-kubectl config get-users
+kubectl config view
 
 kubectl get roles
 
@@ -17,3 +17,7 @@ kubectl auth can-i create-deployments
 kubectl auth can-i delete-nodes
 
 kubectl auth can-i create-deployments --as dev-user --namespace test
+
+kubectl create role developer --verb=list,create,delete --resource=pods
+
+kubectl create rolebinding dev-user-binding --role=developer --user=dev-user
